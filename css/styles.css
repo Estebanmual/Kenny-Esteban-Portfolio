@@ -18,3 +18,22 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+
+#title-projects {
+  transform: rotate(-90deg);
+}
+
+#projects-2-row {
+  height: 350px;
+}
+
+#row1-back {
+  background-image: url(image-geometry_2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.card {
+  border-radius: 0%;
+  border: 0;
+}
