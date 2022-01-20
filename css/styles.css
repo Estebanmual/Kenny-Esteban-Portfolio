@@ -13,8 +13,16 @@
   color: #1a2236;
 }
 
+header {
+  margin-bottom: 10vw;
+}
+
 header .row {
   height: 599.66px;
+}
+
+section {
+  margin-bottom: 10vw;
 }
 
 header section {
@@ -121,4 +129,25 @@ header section {
   background-color: #1a2236;
   margin: 0;
   padding: 2% 10%;
+}
+
+@media (max-width: 767px) {
+  #projects-2-row {
+    height: auto;
+  }
+
+  #title-projects h1 {
+    transform: rotate(0);
+  }
+
+  .header-background {
+    background-image: url(separation-headline-project.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 250px;
+  }
+
+  header .row {
+   height: auto;
+  }
 }
