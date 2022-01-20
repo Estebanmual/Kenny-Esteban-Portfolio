@@ -13,6 +13,17 @@
   color: #1a2236;
 }
 
+header .row {
+  height: 599.66px;
+}
+
+header section {
+  background-image: url(image_dots.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 10.5vw 10.5vw;
+}
+
 .header-background {
   background-image: url(image-geometry_1.svg);
   background-repeat: no-repeat;
@@ -20,11 +31,18 @@
 }
 
 #title-projects {
+  background-image: url(image_dots.svg);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 10.5vw 10.5vw;
+}
+
+#title-projects h1 {
   transform: rotate(-90deg);
 }
 
 #projects-2-row {
-  height: 350px;
+  height: calc(35.45vw * 0.6863);
 }
 
 #row1-back {
@@ -36,4 +54,71 @@
 .card {
   border-radius: 0%;
   border: 0;
+}
+
+.bg-diamond {
+  background-image: url(diamond_shape.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
+.bg-rectangle {
+  background-image: url(various_shapes.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 70%;
+}
+
+.bg-geometry {
+  background-image: url(image-geometry_5.png), url(image-geometry_4.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top left, top right;
+  background-size: 25%, 14%;
+}
+
+.card {
+  padding: 0;
+}
+
+.bg-languages {
+  background-color: #1c528a;
+  background-image: url(background-icon-languages.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.bg-frameworks {
+  background-color: #e2505c;
+  background-image: url(backgroun-icon-frameworks.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.bg-skills {
+  background-color: #febf52;
+  background-image: url(background-icon-skills.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.bg-skills ~ div {
+  background-image: url(image_dots_with_teal.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 60%;
+}
+
+.contact {
+  background-color: #f9f9fa;
+  background-image: url(image-geometry_6.svg), url(image-geometry_7.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top left, bottom right;
+  background-size: 15%, 15%;
+}
+
+.footer {
+  background-color: #1a2236;
+  margin: 0;
+  padding: 2% 10%;
 }
